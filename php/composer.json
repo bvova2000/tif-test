@@ -1,0 +1,10 @@
+{
+    "name": "project/monitoring",
+    "description": "HomeWork 2",
+    "require": {
+        "ext-pcntl": "*",
+        "mongodb/mongodb": "^1.15",          
+        "elasticsearch/elasticsearch": "^7.0" 
+    }
+}
+

@@ -1,0 +1,19 @@
+siege -c10 -t1M http://localhost:8080
+Availability:		      100.00 %
+Response time:		     9842.18 ms
+Throughput:		        0.00 MB/sec
+
+siege -c25 -t1M http://localhost:8080
+Availability:		      100.00 %
+Response time:		    20962.00 ms
+Throughput:		        0.00 MB/sec
+
+siege -c50 -t1M http://localhost:8080
+Availability:		      100.00 %
+Response time:		    30419.82 ms
+Throughput:		        0.00 MB/sec
+
+siege -c100 -t1M http://localhost:8080
+Availability:		       39.00 %
+Response time:		   134779.75 ms
+Throughput:		        0.00 MB/sec
